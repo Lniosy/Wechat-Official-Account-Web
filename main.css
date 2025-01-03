@@ -3,7 +3,6 @@
   --card-bg: #fff;
   --second-bg: #F7F7F7;
   --font-color: #000;
-  --green: #1ba059;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,7 +11,6 @@
     --card-bg: #0f0f0f;
     --second-bg: #303134;
     --font-color: #fff;
-    --green: #25d678;
   }
 }
 
@@ -120,7 +118,8 @@ a.footer-item:visited {
 }
 
 a.footer-item:hover {
-  color: var(--green);
+  color: #1ba059;
+  opacity: 1;
   text-shadow: 0px 0px 8px #1ba05914;
 }
 
@@ -146,7 +145,7 @@ img.wechat-need-reply-copybtn-img {
 .wechat-need-reply-copybtn {
   display: flex;
   padding: 12px 12px 12px 20px;
-  background: var(--green);
+  background: #1ba059;
   color: #fff;
   border-radius: 12px;
   margin: 8px;
